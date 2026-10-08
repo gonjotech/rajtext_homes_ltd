@@ -1,6 +1,7 @@
 import React from "react";
 import type { Metadata } from "next";
 import { ProjectShowcase } from "@/components/sections/ProjectShowcase";
+import { BusinessOwnerShowcase } from "@/components/sections/BusinessOwnerShowcase";
 import { CTASection } from "@/components/sections/CTASection";
 import { COMPANY_DATA } from "@/data/company";
 
@@ -34,6 +35,9 @@ export default function ProjectsPage() {
           </div>
         </div>
       </section>
+
+      {/* Dedicated Section for Business Owners & Commercial Investors */}
+      <BusinessOwnerShowcase />
 
       {/* Main Project Showcase with Full Filters and Lightbox */}
       <ProjectShowcase showTabs={true} />

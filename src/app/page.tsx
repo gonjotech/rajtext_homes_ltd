@@ -2,6 +2,7 @@ import React from "react";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { CompanyIntro } from "@/components/sections/CompanyIntro";
 import { ServicesGrid } from "@/components/sections/ServicesGrid";
+import { BusinessOwnerShowcase } from "@/components/sections/BusinessOwnerShowcase";
 import { ProjectShowcase } from "@/components/sections/ProjectShowcase";
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
 import { ProcessTimeline } from "@/components/sections/ProcessTimeline";
@@ -15,28 +16,31 @@ export default function HomePage() {
       {/* 1. Premium Hero Section */}
       <HeroSection />
 
-      {/* 2. Trust / Company Intro + Animated Counter Stats */}
+      {/* 2. Trust / Company Intro + Real Photos of Uttara Studio & North Badda Workshop + Stats */}
       <CompanyIntro />
 
       {/* 3. Core Engineering & Construction Services */}
       <ServicesGrid />
 
-      {/* 4. Filterable Project Gallery Showcase with Lightbox */}
+      {/* 4. Dedicated Commercial & Industrial Section for Business Owners */}
+      <BusinessOwnerShowcase />
+
+      {/* 5. Filterable Project Gallery Showcase with Lightbox */}
       <ProjectShowcase initialLimit={6} />
 
-      {/* 5. Six Pillars: Why Choose RajTex */}
+      {/* 6. Six Pillars: Why Choose RajTex */}
       <WhyChooseUs />
 
-      {/* 6. Visual 8-Step Process Workflow Timeline */}
+      {/* 7. Visual 8-Step Process Workflow Timeline */}
       <ProcessTimeline />
 
-      {/* 7. Large Editorial-Style Featured Project */}
+      {/* 8. Large Editorial-Style Featured Project */}
       <FeaturedProject />
 
-      {/* 8. Corporate Philosophy & Company Intro Statement */}
+      {/* 9. Corporate Philosophy & Company Intro Statement */}
       <CorporatePhilosophy />
 
-      {/* 9. Direct CTA & Project Inquiries */}
+      {/* 10. Direct CTA & Project Inquiries */}
       <CTASection />
     </main>
   );
