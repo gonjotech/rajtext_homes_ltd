@@ -77,6 +77,7 @@ export function Header({ onToggleMobileMenu, isMobileMenuOpen }: HeaderProps) {
     { name: "Projects", href: "/projects" },
     { name: "Our Process", href: "/process" },
     { name: "Why RajTex", href: "/why-rajtex" },
+    { name: "Sister Concerns", href: "/sister-companies" },
     { name: "Team", href: "/team" },
     { name: "Contact", href: "/contact" },
   ];
@@ -89,12 +90,15 @@ export function Header({ onToggleMobileMenu, isMobileMenuOpen }: HeaderProps) {
           <div className="flex items-center space-x-6">
             <span className="flex items-center gap-1.5 text-slate-300">
               <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block animate-pulse" />
-              Uttara Head Office & Badda Fabrication Workshop
+              Uttara Head Office & Badda Joinery Plant
             </span>
             <span className="text-slate-600">|</span>
-            <span className="text-slate-400">
-              Motto: <strong className="text-amber-400 font-normal">Creative | Honesty | Satisfaction</strong>
-            </span>
+            <Link
+              href="/sister-companies"
+              className="text-slate-400 hover:text-amber-400 transition-colors"
+            >
+              Group Concerns: <strong className="text-amber-400 font-semibold">RajTex (Garments) • Raj Builder</strong>
+            </Link>
           </div>
 
           <div className="flex items-center space-x-6">

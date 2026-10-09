@@ -157,6 +157,18 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
             </Link>
 
             <Link
+              href="/sister-companies"
+              onClick={onClose}
+              className={`block px-4 py-3 rounded-lg text-base font-semibold transition-colors ${
+                pathname.startsWith("/sister-companies")
+                  ? "bg-amber-500/10 text-amber-400 border border-amber-500/20"
+                  : "text-slate-200 hover:bg-slate-900"
+              }`}
+            >
+              Sister Concerns & Group
+            </Link>
+
+            <Link
               href="/team"
               onClick={onClose}
               className={`block px-4 py-3 rounded-lg text-base font-semibold transition-colors ${

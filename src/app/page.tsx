@@ -8,6 +8,7 @@ import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
 import { ProcessTimeline } from "@/components/sections/ProcessTimeline";
 import { FeaturedProject } from "@/components/sections/FeaturedProject";
 import { CorporatePhilosophy } from "@/components/sections/CorporatePhilosophy";
+import { GroupCompaniesSection } from "@/components/sections/GroupCompaniesSection";
 import { CTASection } from "@/components/sections/CTASection";
 
 export default function HomePage() {
@@ -40,7 +41,10 @@ export default function HomePage() {
       {/* 9. Corporate Philosophy & Company Intro Statement */}
       <CorporatePhilosophy />
 
-      {/* 10. Direct CTA & Project Inquiries */}
+      {/* 10. Sister Concerns & Group Companies (RajTex Garments, Raj Builder, RajTex Homes) */}
+      <GroupCompaniesSection />
+
+      {/* 11. Direct CTA & Project Inquiries */}
       <CTASection />
     </main>
   );
