@@ -49,14 +49,16 @@ export const CONTACT_OFFICES: OfficeLocation[] = [
 ];
 
 export const PROJECT_TYPES_LIST = [
+  "Architectural Design (2D/3D & Approvals)",
+  "Duplex & Building Construction",
+  "Interior & Exterior Design",
+  "Buy / Sell Ready Flats (Property Inquiry)",
   "Residential Duplex / Villa",
   "Multi-Storey Apartment Tower",
   "Commercial Office Building",
   "Industrial Factory / PEB Warehouse",
   "Building Renovation & Retrofitting",
-  "Luxury Interior Fit-out",
   "Turnkey Construction",
-  "Architectural / Structural Design Only",
 ];
 
 export const BUDGET_RANGES_LIST = [

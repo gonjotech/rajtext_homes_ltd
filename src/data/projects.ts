@@ -64,13 +64,12 @@ export const PROJECTS_DATA: ProjectItem[] = [
     ],
     keyChallengesAndSolutions:
       "The tight urban footprint on Banani Road 07 required off-site precision prefabrication. RajTex leveraged its North Badda fabrication workshop to build and dry-fit the gate columns and glass hardware prior to rapid on-site assembly, minimizing street congestion and dust pollution.",
-    mainImage:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+    mainImage: "/images/duplex-construction.jpg",
     gallery: [
+      "/images/duplex-construction.jpg",
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
     ],
     isPlaceholderData: false, // Based directly on official billing records
   },
@@ -258,12 +257,11 @@ export const PROJECTS_DATA: ProjectItem[] = [
       "Concealed air distribution ducts integrated into multi-tiered drywall ceilings",
       "Zero-formaldehyde VOC compliant finishes for healthy indoor air quality",
     ],
-    mainImage:
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+    mainImage: "/images/interior-exterior-ready-flats.jpg",
     gallery: [
+      "/images/interior-exterior-ready-flats.jpg",
       "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
     ],
     isPlaceholderData: true,
   },
@@ -308,7 +306,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
   {
     id: "purbachal-villa-sanctuary",
     slug: "purbachal-villa-sanctuary",
-    title: "The Purbachal Eco-Villa",
+    title: "Purbachal Architectural Villa & Masterplan",
     client: "Private Real Estate Investor",
     category: "Residential",
     status: "Completed",
@@ -320,10 +318,11 @@ export const PROJECTS_DATA: ProjectItem[] = [
     completionDate: "September 2025",
     featured: false,
     shortDescription:
-      "A serene bioclimatic private villa integrating fair-faced concrete, exposed brick masonry, rainwater retention ponds, and solar micro-generation.",
+      "A master-planned bioclimatic architectural duplex villa integrating 3D CAD/BIM modeling, fair-faced concrete, exposed brick masonry, and solar micro-generation.",
     fullOverview:
-      "Set in the green expanse of Purbachal New Town, this private villa combines brutalist architectural honesty with warm residential charm. Features fair-faced exposed concrete walls, cantilevered cantilever balconies, and full solar integration.",
+      "Set in the green expanse of Purbachal New Town, this private villa combines brutalist architectural honesty with warm residential charm. Features comprehensive architectural layout planning, fair-faced exposed concrete walls, cantilevered balconies, and full solar integration.",
     scopeOfWork: [
+      "Architectural 2D/3D BIM Modeling & RAJUK Compliance Drawings",
       "Fair-Faced Architectural Concrete Shuttering & Casting",
       "Traditional Gas-Fired Hand-Sorted Exposed Brick Masonry",
       "Biophilic Internal Courtyard with Rainwater Retention & Koi Pond",
@@ -335,11 +334,10 @@ export const PROJECTS_DATA: ProjectItem[] = [
       "Thermally insulated cavity brick walls reducing summer heat by 6°C",
       "Long-span cantilever roof canopies engineered without drop beams",
     ],
-    mainImage:
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
+    mainImage: "/images/architectural-design.jpg",
     gallery: [
+      "/images/architectural-design.jpg",
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
     ],
     isPlaceholderData: true,
   },

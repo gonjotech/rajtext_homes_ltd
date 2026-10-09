@@ -36,7 +36,7 @@ export function CompanyIntro() {
             <div className="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl group bg-slate-950">
               <div className="relative h-56 sm:h-64 w-full overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=80"
+                  src="/images/architectural-design.jpg"
                   alt="Corporate Architectural Studio in Uttara Model Town, Dhaka"
                   fill
                   sizes="(max-width: 1024px) 100vw, 500px"

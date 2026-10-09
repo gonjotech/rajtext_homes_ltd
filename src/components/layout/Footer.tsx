@@ -162,7 +162,7 @@ export function Footer() {
               Engineering Services
             </h4>
             <ul className="space-y-2 text-sm">
-              {SERVICES_DATA.slice(0, 7).map((srv) => (
+              {SERVICES_DATA.slice(0, 8).map((srv) => (
                 <li key={srv.id}>
                   <Link
                     href={`/services#${srv.slug}`}

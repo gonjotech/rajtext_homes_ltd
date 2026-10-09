@@ -13,6 +13,7 @@ import {
   Sparkles,
   Calculator,
   Key,
+  Home,
   ArrowRight,
   CheckCircle2,
 } from "lucide-react";
@@ -30,6 +31,7 @@ const ICON_MAP: Record<string, React.ReactNode> = {
   Sparkles: <Sparkles className="w-6 h-6 text-amber-400" />,
   Calculator: <Calculator className="w-6 h-6 text-amber-400" />,
   Key: <Key className="w-6 h-6 text-amber-400" />,
+  Home: <Home className="w-6 h-6 text-amber-400" />,
 };
 
 interface ServicesGridProps {

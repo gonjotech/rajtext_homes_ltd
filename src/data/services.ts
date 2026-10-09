@@ -73,24 +73,25 @@ export const SERVICES_DATA: ServiceItem[] = [
   {
     id: "construction-contracting",
     slug: "construction-contracting",
-    title: "Construction & Contracting",
+    title: "Duplex & Building Construction",
     shortDescription:
-      "Full-scale general civil contracting and building construction from excavation and casting to finishing and handover.",
+      "Turnkey luxury duplex villas, multi-storey residential towers, and commercial building construction from piling to finishing.",
     fullDescription:
-      "From high-rise residential complexes to heavy industrial facilities, RajTex Homes Ltd. operates as your dependable general contractor. We manage procurement, skilled labor, heavy equipment, and rigorous on-site execution to deliver structures built to last generations.",
+      "From bespoke contemporary duplex villas to multi-storey apartment towers, RajTex Homes Ltd. operates as your dependable general contractor. We manage piling, heavy RCC structural casting, brickwork, and turnkey finishes to deliver structures built to last generations.",
     category: "Construction & Execution",
     iconName: "Hammer",
     deliverables: [
+      "Luxury Contemporary Duplex Villa Construction",
       "Site Earthwork, Shore Piling & Deep Excavation",
-      "Substructure & Superstructure RCC Casting",
+      "Substructure & Superstructure RCC Casting (BNBC 2020)",
       "High-Precision Masonry, Plaster & Waterproofing Works",
-      "Façade Cladding, Glass Curtain Walls & Metal Framing",
-      "Comprehensive Structural Handover Certification",
+      "Façade Cladding, Glass Curtain Walls & Turnkey Handover Certification",
     ],
     keyHighlights: [
       "Tier-1 construction materials (500W TMT steel, OPC cement, graded stone chips)",
       "Strict on-site batching, slump testing, and cylinder compressive testing",
       "Comprehensive occupational health, safety, and PPE compliance",
+      "Dedicated focus on architectural duplexes and residential complexes",
     ],
     scopePoints: [
       "Procurement of certified raw materials with mill test reports",
@@ -302,4 +303,35 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Official handover ceremony with warranty certificates and maintenance manuals",
     ],
   },
+  {
+    id: "ready-flats-buy-sell",
+    slug: "ready-flats-buy-sell",
+    title: "Buy & Sell Ready Flats",
+    shortDescription:
+      "Verified luxury ready-to-move-in duplexes and apartment flats with crystal clear legal documentation across prime Dhaka locations.",
+    fullDescription:
+      "RajTex Homes Ltd. bridges high-quality architectural construction with dependable real estate handovers. We facilitate the direct purchase and sale of vetted, premium ready flats and duplexes in Dhaka's premier residential enclaves (Uttara, Gulshan, Banani, Bashundhara, and Mirpur DOHS). Every property is subjected to rigorous structural safety audits and legal title verification.",
+    category: "Construction & Execution",
+    iconName: "Home",
+    deliverables: [
+      "Verified Ready Flats in Prime Residential Hubs",
+      "Complete Land Title & RAJUK Approval Due Diligence",
+      "Turnkey Interior-Finished Ready-to-Move Units",
+      "Transparent Deed Registration & Legal Handover Support",
+      "Post-Handover Structural & MEP Defect Liability Support",
+    ],
+    keyHighlights: [
+      "100% free of legal encumbrances, bank mortgage issues, or municipal disputes",
+      "Built or vetted directly by RajTex engineering standards",
+      "Immediate possession with active utility (electricity, gas/LPG, water) connections",
+      "Direct consultation with zero hidden broker markups",
+    ],
+    scopePoints: [
+      "Client requirement mapping (budget, location, sft size, floor preference)",
+      "Physical site inspections and structural finish verification",
+      "Vetting of title deeds, mutation records, and RAJUK sanction approvals",
+      "Execution of legally binding sale-purchase agreements and final keys handover",
+    ],
+  },
 ];
+

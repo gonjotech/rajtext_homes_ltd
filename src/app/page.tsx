@@ -1,5 +1,6 @@
 import React from "react";
 import { HeroSection } from "@/components/sections/HeroSection";
+import { CoreSpecializationsSection } from "@/components/sections/CoreSpecializationsSection";
 import { CompanyIntro } from "@/components/sections/CompanyIntro";
 import { ServicesGrid } from "@/components/sections/ServicesGrid";
 import { BusinessOwnerShowcase } from "@/components/sections/BusinessOwnerShowcase";
@@ -17,7 +18,10 @@ export default function HomePage() {
       {/* 1. Premium Hero Section */}
       <HeroSection />
 
-      {/* 2. Trust / Company Intro + Real Photos of Uttara Studio & North Badda Workshop + Stats */}
+      {/* 2. Core Focus: Architectural Design | Duplex & Building Construction | Interior Exterior & Ready Flats */}
+      <CoreSpecializationsSection />
+
+      {/* 3. Trust / Company Intro + Real Photos of Uttara Studio & North Badda Workshop + Stats */}
       <CompanyIntro />
 
       {/* 3. Core Engineering & Construction Services */}

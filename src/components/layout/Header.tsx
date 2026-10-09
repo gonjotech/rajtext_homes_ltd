@@ -20,6 +20,7 @@ import {
   Sparkles,
   Calculator,
   Key,
+  Home,
 } from "lucide-react";
 import { COMPANY_DATA } from "@/data/company";
 import { SERVICES_DATA } from "@/data/services";
@@ -35,6 +36,7 @@ const ICON_MAP: Record<string, React.ReactNode> = {
   Sparkles: <Sparkles className="w-5 h-5 text-amber-500" />,
   Calculator: <Calculator className="w-5 h-5 text-amber-500" />,
   Key: <Key className="w-5 h-5 text-amber-500" />,
+  Home: <Home className="w-5 h-5 text-amber-500" />,
 };
 
 interface HeaderProps {

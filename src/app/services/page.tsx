@@ -12,6 +12,7 @@ import {
   Sparkles,
   Calculator,
   Key,
+  Home,
   CheckCircle2,
   ArrowRight,
   PhoneCall,
@@ -24,7 +25,7 @@ import { CTASection } from "@/components/sections/CTASection";
 export const metadata: Metadata = {
   title: "Engineering & Construction Services",
   description:
-    "Explore the 10 core services offered by RajTex Homes Ltd.: Architectural Design, Structural Engineering, Civil Contracting, Turnkey Construction, MEP, and more.",
+    "Explore the comprehensive services offered by RajTex Homes Ltd.: Architectural Design, Duplex & Building Construction, Interior Exterior & Buy/Sell Ready Flats, Structural Engineering, and more.",
 };
 
 const ICON_MAP: Record<string, React.ReactNode> = {
@@ -38,6 +39,7 @@ const ICON_MAP: Record<string, React.ReactNode> = {
   Sparkles: <Sparkles className="w-8 h-8 text-amber-400" />,
   Calculator: <Calculator className="w-8 h-8 text-amber-400" />,
   Key: <Key className="w-8 h-8 text-amber-400" />,
+  Home: <Home className="w-8 h-8 text-amber-400" />,
 };
 
 export default function ServicesPage() {
