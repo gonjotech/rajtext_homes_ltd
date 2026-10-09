@@ -1,6 +1,5 @@
-# Next.js
+# Next.js development build
 .next/
-out/
 
 # Dependencies
 node_modules/
