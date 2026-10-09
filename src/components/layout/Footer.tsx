@@ -260,12 +260,27 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar: Copyright & Legal */}
-        <div className="mt-12 pt-8 border-t border-slate-900 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
-          <p>
-            &copy; {new Date().getFullYear()} {COMPANY_DATA.name} All rights
-            reserved. Registered in Bangladesh.
-          </p>
+        {/* Bottom Bar: Copyright, Developer Credits & Legal */}
+        <div className="mt-12 pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left">
+            <p>
+              &copy; {new Date().getFullYear()} {COMPANY_DATA.name} All rights
+              reserved.
+            </p>
+            <span className="hidden sm:inline text-slate-700">|</span>
+            <p className="flex items-center gap-1.5 text-slate-400">
+              <span>Developed by</span>
+              <a
+                href="https://gonjotech.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-amber-400 hover:text-amber-300 transition-colors hover:underline inline-flex items-center gap-1"
+              >
+                <span>GonjoTech</span>
+              </a>
+              <span className="text-slate-500">(<a href="https://gonjotech.com" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">gonjotech.com</a>)</span>
+            </p>
+          </div>
 
           <div className="flex items-center space-x-6">
             <Link href="/about" className="hover:text-slate-300 transition-colors">

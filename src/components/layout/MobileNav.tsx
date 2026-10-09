@@ -237,6 +237,19 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
             <Clock className="w-4 h-4 text-slate-500 shrink-0" />
             <span>{COMPANY_DATA.businessHours}</span>
           </div>
+
+          <div className="pt-3 mt-3 border-t border-slate-900 text-[11px] text-slate-500 text-center">
+            <span>Developed by </span>
+            <a
+              href="https://gonjotech.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-amber-400 font-semibold hover:underline"
+            >
+              GonjoTech
+            </a>{" "}
+            <span className="text-slate-600">(gonjotech.com)</span>
+          </div>
         </div>
       </div>
     </div>
